@@ -13,7 +13,7 @@
 /* Header Section Starts Here  */
 
 .header {
-  width: 1350px;
+  width: 100%;
   background-image: url("../img/dd.jpg");
   background-size: cover;
   margin: 0 auto;
@@ -21,7 +21,7 @@
 }
 
 .header_main {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   color: #fff;
   padding: 50px 0 100px 0;
@@ -71,18 +71,18 @@
 
 /* article section starts Here  */
 .article_section {
-  width: 1350px;
+  width: 100%;
   padding: 70px 0;
   margin: 0 auto;
 }
 
 .article_main_section {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .article_box {
-  width: 280px;
+  width: 29%;
   float: left;
   padding: 10px 0;
 }
@@ -92,7 +92,7 @@
 }
 
 .addpadding {
-  padding-left: 55px;
+  padding-left: 61px;
 }
 
 .article_box h3 {
@@ -128,14 +128,14 @@
 /* team section starts here  */
 
 .team_section {
-  width: 1350px;
+  width: 100%;
   background-color: #5385c1;
   color: #fff;
   margin: 0 auto;
 }
 
 .team_main {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 80px 0;
 }
@@ -157,7 +157,7 @@
 }
 
 .team_member {
-  width: 200px;
+  width: 21%;
   border: 1px solid rgb(192, 189, 189);
   float: left;
   text-align: center;
@@ -170,7 +170,7 @@
 
 .team_member img {
   border-radius: 100%;
-  width: 130px;
+  width: 70%;
   margin-bottom: 20px;
 }
 
@@ -194,13 +194,13 @@
 /* Blog Section Starts Here  */
 
 .blog-section {
-  width: 1350px;
+  width: 100%;
   padding: 80px 0;
   margin: 0 auto;
 }
 
 .blog-main {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -226,12 +226,12 @@
 }
 
 .blog_postone {
-  width: 440px;
+  width: 48%;
   float: left;
 }
 
 .blog_posttwo {
-  width: 440px;
+  width: 48%;
   float: right;
 }
 
@@ -302,12 +302,12 @@
 /* footer section starts here  */
 
 .footer {
-  width: 1350px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .footer_main {
-  width: 960px;
+  max-width: 960px;
   border-top: 1px solid gray;
   margin: 0 auto;
   padding: 30px 0;
