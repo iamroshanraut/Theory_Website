@@ -327,3 +327,118 @@
 }
 
 /* footer section ends here  */
+
+
+
+/* Media Query Starts Here satrts here  */
+
+@media only screen and (max-width:1000px){
+  .header_main{
+    margin: 0 15px;
+  }
+
+  .article_main_section{
+    width: 100%;
+    
+    
+  }
+  
+  .article_box{
+    clear: both;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 25px 0;
+    
+  }
+
+  .article_box h3{
+    font-size: 20px;
+  }
+
+  .article_box p{
+    font-size: 16px;
+  }
+
+  .team_main{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .team_member{
+    margin-bottom: 20px;
+  }
+
+  .margin_team{
+    margin-right: 25px;
+  }
+
+  .addmarginleft{
+    padding-left: 20px;
+  }
+
+  .blog_box{
+    padding: 0 20px;
+  }
+
+  .footer_main{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width:640px){
+
+  .poster h1{
+    font-size: 30px;
+  }
+
+  .team_member{
+    width: 100%;
+  }
+
+  .team_member img{
+    width: 40%;
+  }
+
+  .team_member h4{
+    font-size: 30px;
+  }
+
+  .team_member p{
+    font-size: 15px;
+  }
+
+  .blog_postone{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .blog_posttwo{
+    width: 100%;
+  }
+
+  .footer_main {
+    clear: both;
+  }
+
+  .footer_main p{
+    margin-bottom: 30px;
+  }
+
+  .footer{
+   clear: both;
+  }
+
+}
+
+@media only screen and (max-width:450px){
+ 
+
+}
+
+@media only screen and (max-width:350px){
+  
+
+}
